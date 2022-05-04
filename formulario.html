@@ -1,0 +1,73 @@
+<html lang="es">
+<head>
+     <title>U.E.P Galileo Galilei</title>
+      <meta charset="utf-8">
+     <meta name="descrition" content="Pagina dedicada a la Evaluacion Sumativa I"/>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" type="text/css" href="style.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+     <link rel="icon" href="Imagenes/logo.png">
+
+<body>
+	
+		<div class="esqueleto"> 
+	    	
+        <form method="post" action="curso.php" class="formulario"> <br> 
+	     <h2> Registrate </h2>
+
+	  <div class="contenido">
+	  	<div class="form__group field">
+
+			<label class="form__label" for="Nombre">Nombre</label>
+			<input type="text" class="form__field" name="Nombre"> <br> <br>
+			
+			<label class="form__label" for="Apellido">Apellido</label>
+			<input type="text" class="form__field" name="Apellido" > <br> <br>
+
+			<label class="form__label" for="Cedula">Cedula</label>
+			<input type="text" class="form__field" name="Cedula"> <br> <br>
+       </div>
+           
+            <div class="radio">
+
+            <h4>Grado</h4>  
+             <input type="radio" name="Grado" value="1" id="1">   <!--Todos los Radios deben tener el mismo name, sino se tomara como que pertenece a otro grupo y se marcaran varios al mismo tiempo-->
+            <label for="1">1ro</label>
+			
+			<input type="radio" name="Grado" value="2" id="2"> 
+			<label for="2">2do</label>   <!--Con un for y un id de mismo nombre se puede cliquear en la palabra para seleccionar el radiobutton-->
+			
+            <input type="radio" name="Grado" value="3" id="3"> 
+			<label for="3">3ro</label>
+
+			<input type="radio" name="Grado" value="4" id="4"> 
+			<label for="4">4to</label>
+
+			<input type="radio" name="Grado" value="5" id="5"> 
+			<label for="5">5to</label>
+
+			<input type="radio" name="Grado" value="6" id="6"> 
+			<label for="6">6to</label>
+			
+			<br><br>
+            </div>
+        <div class="form__group field">
+
+            <label class="form__label" for="Maestra">Nombre de tu Maestra</label>
+			<input type="text" class="form__field" name="Maestra" > <br> <br>
+
+        </div>
+
+           
+            <input type="submit" name="Ingresar" value="Ingresar" class="boton">
+           
+
+</div>
+</form>	
+</div>
+</body>
+
+
+</html>
